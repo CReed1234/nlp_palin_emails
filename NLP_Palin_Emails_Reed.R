@@ -21,7 +21,7 @@ library(lexicon)
 
 # Set path to directory with a list of .txt files that are the emails
 # 393.txt example file name
-path = "C:\\Users\\Connor Reed\\Desktop\\Homeworks\\NLP Final\\emails\\emails"
+path = "Insert Your Path Here"
 setwd(path)
 text_read = readtext(paste0(path,"\\*.txt"))
 
